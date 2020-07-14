@@ -1,0 +1,103 @@
+.side-drawer {
+    width: 15rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: none;
+    color: white;
+    position: fixed;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.541) ;
+    top: 0  ;
+    left: 0;
+    z-index: 2;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.side-drawer.open {
+transform: translateX(0);
+}
+
+.side-drawer-header {
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 1rem;
+    
+}
+.side-drawer-logo a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color:white;
+    font-size: .8rem;
+}
+.side-drawer-items {
+    display: flex;
+    flex-direction: column;
+}
+.side-drawer-items ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    margin: 0 3.6rem;
+}
+
+.side-drawer-items-each {
+    margin: 0.6rem 0;
+}
+
+.side-drawer-logo a:hover,
+.side-drawer-logo a:active{
+    color:burlywood;
+}
+
+.side-drawer-items-each a {
+    text-decoration: none;
+    color: white;
+}
+
+.side-drawer-user {
+    padding: 0.3rem 0;
+    
+}
+
+.side-drawer-user ul {
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 3.5rem;
+    margin: 0;
+}
+
+.side-drawer-user-items {
+    
+    list-style: none;
+    color: rgb(103, 145, 145)   ;
+    padding: 0 0.2rem;
+
+}
+
+.side-drawer-user-items a {
+    text-decoration: none;
+    color:rgb(103, 145, 145) ;
+}
+
+
+
+.side-drawer-user-items a:hover,
+.side-drawer-user-items a:active {
+    color: teal;
+}
+.side-drawer-items-each a:hover,
+.side-drawer-items-each a:active {
+    
+    
+    color: teal;
+    
+
+}
