@@ -3,12 +3,11 @@ import './Toolbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import logo from 'public/logo_transparent.png'
 import DrawerToggleButton from '../Sidedrawer/DrawerButton.js'
-import { BrowserRouter } from 'react-router-dom';
 
 const toolbar = props => {
 
     return (
-        <BrowserRouter>
+        
         <header className="toolbar">
             <nav className="toolbar_navigation">
                 <div className="toolbar-left"> 
@@ -30,7 +29,7 @@ const toolbar = props => {
                 </div>
             </nav>
         </header>
-        </BrowserRouter>
+        
     );
 }
 

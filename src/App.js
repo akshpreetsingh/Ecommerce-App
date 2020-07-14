@@ -9,9 +9,9 @@ import SideDrawer from './Components/Sidedrawer/Sidedrawer';
 import Backdrop from './Components/Backdrop/Backdrop'
 import AnimatedComponent from './Components/AnimatedComponent/AnimatedComponent'
 
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import {BrowserRouter,Link,Switch,Route,Redirect} from'react-router-dom';
-import signIn from './Components/SignInComponent/SignIn';
+// import signIn from './Components/SignInComponent/SignIn';
 
 class App extends Component {
 
@@ -36,8 +36,8 @@ class App extends Component {
         }
 
         return (
+            <BrowserRouter>
             <React.Fragment>
-                <BrowserRouter>
                 <Toolbar drawerHandler = {this.sideDrawerHandler}></Toolbar>
                 {/* {sideDrawer} */}
                 <SideDrawer sideDrawerState ={this.state.buttonStatus} onClickHandler={this.sideDrawerHandler}></SideDrawer>
@@ -52,8 +52,9 @@ class App extends Component {
                 
             </Switch>    
             
-            </BrowserRouter> 
+            
             </React.Fragment>
+        </BrowserRouter>
             
         );
     }
