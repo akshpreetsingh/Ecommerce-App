@@ -54,6 +54,7 @@ transform: translateX(0);
 .side-drawer-logo a:hover,
 .side-drawer-logo a:active{
     color:burlywood;
+    text-decoration: none;
 }
 
 .side-drawer-items-each a {
@@ -92,12 +93,14 @@ transform: translateX(0);
 .side-drawer-user-items a:hover,
 .side-drawer-user-items a:active {
     color: teal;
+    text-decoration: none;
 }
 .side-drawer-items-each a:hover,
 .side-drawer-items-each a:active {
     
     
     color: teal;
+    text-decoration: none;
     
 
 }

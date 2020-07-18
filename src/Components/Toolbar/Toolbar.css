@@ -34,25 +34,26 @@
         color: honeydew;
         text-decoration: none;
         font-size: 1.5rem;
-        
-        
     }
 
     .toolbar_logo a:hover {
         color: burlywood;
+        text-decoration: none;
     }
 
     .toolbar_items a{
         color:white;
         text-decoration: none;
         
-    }
+    } 
 
+   
     
     
     .toolbar_items a:hover,
     .toolbar_items a:active {
         color: hotpink;
+        text-decoration: none;
     }
     
     .toolbar_items ul {
@@ -70,6 +71,7 @@
     .spacer {
         flex: 1;
     }
+
 
     
 }

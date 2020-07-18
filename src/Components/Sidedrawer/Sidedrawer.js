@@ -16,7 +16,7 @@ const sideDrawer = (props) => {
             <div className= "side-drawer-button">
                 <DrawerButton clickHandler={props.onClickHandler}></DrawerButton>
             </div>
-            <div className="side-drawer-logo"><a href="/">BUBBLEPOPDECOR.COM</a></div>
+            <div className="side-drawer-logo"><a href="/">POPITO.COM</a></div>
         </div> 
         <div className="side-drawer-user">
             <ul>
