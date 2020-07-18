@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
 import './Products.css'
-class products extends Component {
+class Products extends React.Component {
      
     constructor(props){
         super(props)
@@ -45,4 +45,4 @@ class products extends Component {
     };
 
 }
-export default products;
+export default Products;

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Sidedrawer.css";
 import DrawerButton from "./DrawerButton"
+import {Link} from 'react-router-dom'
 const sideDrawer = (props) => {
 
     let sideDrawerClassName = 'side-drawer';
@@ -19,9 +20,9 @@ const sideDrawer = (props) => {
         </div> 
         <div className="side-drawer-user">
             <ul>
-                <li className="side-drawer-user-items"><a href ="/"> Sign In</a></li>
+                <li className="side-drawer-user-items"><Link to = "/signin">Sign In</Link></li>
                 <li className="side-drawer-user-items">|</li>
-                <li className="side-drawer-user-items"><a href="/">Registration</a></li>
+                <li className="side-drawer-user-items"><Link to = "/signup">Registration</Link></li>
             </ul>
         </div>
         <div className="side-drawer-items">
