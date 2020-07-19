@@ -1,7 +1,7 @@
 import React from 'react';
 import './Toolbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 // import logo from 'public/logo_transparent.png'
 import DrawerToggleButton from '../Sidedrawer/DrawerButton.js'
 
@@ -33,9 +33,6 @@ const toolbar = props => {
                     </div>
                 </nav>
             </header>
-
-            
-
         </React.Fragment>
         
     );

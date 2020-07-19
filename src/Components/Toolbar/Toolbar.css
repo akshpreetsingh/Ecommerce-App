@@ -6,6 +6,7 @@
         width: 100%;
         background-color: black;
         height:50px;
+        z-index: 2;
     }
     .toolbar_navigation {
         display: flex;
