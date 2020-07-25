@@ -33,7 +33,11 @@ class App extends Component {
 
         if(this.state.buttonStatus === true){
             // sideDrawer=<SideDrawer onClickHandler ={this.sideDrawerHandler}></SideDrawer>
-            backdrop =<Backdrop onClickHandler={this.sideDrawerHandler}></Backdrop>
+            backdrop =<Backdrop onClickHandler={() => {this.setState((prevState) => ({buttonStatus: !prevState.buttonStatus}))}}></Backdrop> 
+            //used callback inline
+            //other possible ways --
+            //backdrop =<Backdrop onClickHandler={() => {this.setState((prevState) => { return {buttonStatus: !prevState.buttonStatus}})}}></Backdrop>
+            //backdrop =<Backdrop onClickHandler={this.sideDrawerHandler}></Backdrop>
         }
 
         return (

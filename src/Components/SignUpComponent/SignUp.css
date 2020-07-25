@@ -1,5 +1,6 @@
 .signup-main {
     display: flex;
+    flex-direction: row;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -10,11 +11,57 @@
 .signup-right {
     margin-top: 50px;
     width: 50%;
-    background-color:rgb(175, 175, 175);
+    background-color:white
 }
+
+.signup-right-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+.form-field {
+    margin: 0.5rem 0;
+}
+.form-field-label {
+    margin: 0 0;
+}
+
+.form-field-inputfalse {
+    border-color: red;
+}
+
+
 
 .signup-left {
     margin-top: 50px;
     width: 50%;
-    background-color: dodgerblue
+    background-color:rgb(116, 196, 221)
+}
+
+.registration-toggle {
+    background-color: rgba(128, 255, 0, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.registration-toggle-1 {
+    background-color: rgba(255, 255, 255, 0.959);
+    height: 1%;
+    width: 100%;
+}
+.registration-toggle-2 {
+    background-color: rgba(255, 255, 255, 0.959);
+    height: 1%;
+    width: 50%;
 }
